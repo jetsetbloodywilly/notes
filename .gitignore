@@ -1,0 +1,63 @@
+.DS_Store
+*.DS_Store
+**/.DS_Store
+*sync-conflict*
+**/*sync-conflict*
+.sync-conflict-*
+*[Cc]onflict*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# Логи
+*.log
+logs/
+
+# Временные файлы
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Кэш
+.cache/
+*.cache
+
+# Файлы автсохранения
+*.autosave
+*~
+
+# Редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Зависимости
+node_modules/
+vendor/
+__pycache__/
+
+# Сборка
+dist/
+build/
+*.egg-info/
+
+# Окружение
+.env
+.venv/
+venv/
